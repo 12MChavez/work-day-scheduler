@@ -4,11 +4,11 @@ body {
   line-height: 1;
 }
 
-textarea {
+.textArea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #000000 !important;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -19,6 +19,7 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  padding: 0;
 }
 
 .description {
